@@ -106,10 +106,10 @@ prop_process() {
 }
 
 # Credits
-ui_print "**************************************"
+ui_print "******************************************"
 ui_print "*   Developers features and props special    *"
-ui_print "*   for Xiaomi Mi 11 Ultra. Codename: Star   *"
-ui_print "**************************************"
+ui_print "*   for Xiaomi devices                         *"
+ui_print "******************************************"
 ui_print " "
 
 # Check for min/max api version
