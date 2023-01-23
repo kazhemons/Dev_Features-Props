@@ -4,3 +4,4 @@ version=v1
 versionCode=1
 author=Majestic
 description=Changed and added settings to dev_features and build.prop files
+updateJson=https://raw.githubusercontent.com/kazhemons/Dev_Features-Props/main/DevF.json
