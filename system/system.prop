@@ -1,0 +1,56 @@
+# for CTS fps
+ro.vendor.display.default_fps=120
+#set aod fps
+ro.vendor.display.fod_monitor_default_fps=30
+#set SAR feature
+persist.radio.dynamic_sar=true
+#system prop for wipower support
+ro.bluetooth.emb_wp_mode=true
+ro.bluetooth.wipower=true
+#snapdragon value add features
+#
+ro.qc.sdk.audio.ssr=true
+
+#Disable MTE Async for system server
+arm64.memtag.process.system_server=on
+
+#Performance disable iorapd
+ro.iorapd.enable=true
+#Profile of compiling apk while installing
+pm.dexopt.install=everything
+pm.dexopt.install-bulk=everything
+pm.dexopt.bg-pm.dexopt.bg-dexopt=everything
+pm.dexopt.ab-ota=everything
+pm.dexopt.first-use=everything
+pm.dexopt.shared=everything
+#
+arm64.memtag.process.system_server=async
+arm64.memtag.process.surfaceflinger=async
+arm64.memtag.process.zygote64=async
+#
+#Async Surface Flinger
+debug.sf.auto_latch_unsignaled=true
+#
+vendor.bluetooth.startbtlogger=false
+persist.sys.offlinelog.kernel=false
+persist.sys.offlinelog.logcat=false
+persist.sys.offlinelog.logcatkernel=false
+ro.lmk.debug=false
+persist.camera.stats.test=0
+vendor.persist.camera.stats.test=0
+persist.sys.perf.debug=false
+profiler.hung.dumpdobugreport=false
+debugtool.anrhistory=0
+#
+#fluencetype can be "fluence" or "fluencepro" or "none"
+ro.qc.sdk.audio.fluencetype=fluencepro
+persist.audio.fluence.voicecall=false
+persist.audio.fluence.voicerec=true
+persist.audio.fluence.speaker=true
+#
+ro.vendor.audio.sdk.fluencetype=fluencepro
+persist.vendor.audio.fluence.voicecall=false
+persist.vendor.audio.fluence.voicerec=true
+persist.vendor.audio.fluence.speaker=true
+persist.vendor.audio.fluence.tmic.enabled=true
+#
